@@ -1,0 +1,151 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: 'Roboto Slab', serif!important;
+}
+.pad-10,.dr_item{
+	padding:10px!important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 21px!important;
+    padding: 10px!important;
+    color: rgb(0 76 149);
+}
+p{
+	font-size: 17px;
+    line-height: 36px;
+    color: rgb(0 0 0 / 67%);
+	padding:10px!important;
+}
+header{
+	background: linear-gradient(130deg,rgb(0 114 187),rgb(255 255 255));
+    color: rgb(255 255 255);
+	
+}
+
+.pad-10,.headerWidget>ul>li,nav{
+ padding:10px!important;
+}
+
+.headerWidget>ul>li>a{
+	color:white!important;
+	font-size: 15px;
+}
+.nav_item>ul>li>a{
+	  color: rgb(0 76 149)!important;
+
+    font-size: 15px!important;
+}
+nav{
+	position:sticky;
+	top:0px;
+	z-index:99999;
+	background-color:white;
+}
+.service_list,.dr_item{
+	 background: rgb(255 255 255);
+  
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5%;
+    cursor: pointer;
+    border-bottom: 20px solid rgb(13 121 190);
+   
+}
+
+.service_list>ul>li>a{
+	color:black!important;
+}
+
+.logo{
+	width: 117px;
+    position: absolute;
+    top: -12px;
+    background: rgb(255 255 255);
+}
+article,.doctor,.treatment{
+	padding:22px 0px;
+}
+
+.dr_item>.dr_img>img{
+	width: 100%!important;
+	height: 280px!important;
+}
+
+.dr_item:hover {
+
+    color: rgb(255 255 255);
+    transition: 0.2s;
+    box-shadow: 0px 51px 35px 15px #8080800d;
+
+	
+}
+
+.specialist{
+	font-size:25px;
+}
+.dr_item>.dr_img>img{
+	border-radius:10px;
+}
+.plus{
+	
+font-size: 35px;
+position: absolute;
+bottom: 11px;
+right: 14px;
+padding: 10px;
+background: rgb(13 121 190);
+border-radius: 10% 0% 35% 10%;
+color: rgb(255 255 255);
+   
+
+}
+.plus>a{
+	color:white!important;
+}
+.my_slider{
+		
+		background: rgb(255 255 255);
+		width: 100%;
+		background: linear-gradient(130deg,rgb(0 114 187),rgb(255 255 255));
+		border-radius: 15px;
+		left: -1px;
+		z-index: -1;
+		padding: 10px;
+}
+
+
+
+.dr_item:hover .fa-user-md{
+transform: rotate3d(1, 1, 1, 359deg);
+	transition:0.4s;
+}
+.treatment_item>p{
+	 box-shadow: -21px 51px 35px 15px #8080800d;
+	 border-radius:10%;
+	 background: linear-gradient( 130deg ,rgb(0 114 187),rgb(255 255 255));
+    border-radius: 0% 4px 10px 10px;
+    color: rgb(255 255 255);
+}
+
+
+@media(max-width:1200px){
+	nav{
+		display:none!important;
+	}
+
+    .logo {
+		width: 100%!important;
+		position: relative!important;
+		background: rgb(255 255 255 / 19%);
+		backdrop-filter: blur(41px);
+		border-radius: 4%;
+		box-shadow: 5px 10px 16px 7px #69696908;
+
+}
+	
+}
